@@ -1,0 +1,20 @@
+.btn-info{
+    font-size: 30px;
+}
+
+.btn-success:hover{
+     background-color: cornflowerblue;
+     font-size: 20px;
+}
+
+canvas{
+    border: 1px solid black;
+    animation-name: joke;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes joke{
+    from{box-shadow: 5px 5px 38px blue;}
+    to{box-shadow: 5px 5px 38px greenyellow;}
+}
